@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # vim: ai ts=4 sts=4 et sw=4
-from PIL import Image, ImageDraw, json, sys, os, exceptions
+from PIL import Image, ImageDraw
+import json, sys, os, exceptions
 
 try:
    from django.conf import settings
